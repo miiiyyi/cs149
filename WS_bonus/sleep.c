@@ -6,13 +6,13 @@ int
 main(int argc, char *argv[])
 {
   if (argc != 2) {
-    fprintf(2, "Usage: sleep ticks\n");
+    printf("Incorrect arguments\n");
     exit(1);
   }
 
   int ticks = atoi(argv[1]);
-  if (ticks < 0) {
-    fprintf(2, "sleep: ticks must be non-negative\n");
+  if (ticks <= 0) {
+    printf("sleep: ticks must be non-negative\n");
     exit(1);
   }
 
