@@ -1,0 +1,11 @@
+cd ~
+git clone git://g.csail.mit.edu/xv6-labs-2023
+cd xv6-labs-2023
+nano user/sleep.c
+nano Makefile
+make qemu
+./grade-lab-util sleep
+make GRADEFLAGS=sleep grade
+make clean
+make qemu
+history > worksheet1.log
