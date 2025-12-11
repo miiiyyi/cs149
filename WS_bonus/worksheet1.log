@@ -8,4 +8,3 @@ make qemu
 make GRADEFLAGS=sleep grade
 make clean
 make qemu
-history > worksheet1.log
