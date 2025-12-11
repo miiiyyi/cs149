@@ -11,4 +11,3 @@ cd WS_bonus
 git add .
 curl -L https://tinyurl.com/yy94jltt -o out.pdf
 ls -latr
-history > cmds.log
