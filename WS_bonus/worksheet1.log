@@ -1,3 +1,7 @@
+git add cmds.log *.c
+git commit -m "First commit" -a
+git branch
+git push -u origin master
 cd ~
 git clone git://g.csail.mit.edu/xv6-labs-2023
 cd xv6-labs-2023
