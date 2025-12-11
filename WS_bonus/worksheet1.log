@@ -5,6 +5,3 @@ nano user/sleep.c
 nano Makefile
 make qemu
 ./grade-lab-util sleep
-make GRADEFLAGS=sleep grade
-make clean
-make qemu
